@@ -14,6 +14,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
 
@@ -30,9 +31,27 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
 
+        }
+
+        thead > tr > th{
+            position:sticky;
+            top: -1px;
+            background-color: #383838;
+
+
+        }
+
+        tbody > tr:nth-child(odd) {   /*voce pode usa odd = impar, even = par ou 2n,3n,4n vai por quantas linhas voce quer pular*/
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+            color: black;
         }
 
         .num{
@@ -41,6 +60,11 @@
         }
          .hor{
             width: 50px;
+         }
+
+         p{
+           text-align: justify;
+           text-indent: 5px;
          }
 
 
@@ -223,6 +247,16 @@
 
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae suscipit porro sint debitis voluptate labore recusandae veritatis est aliquid! Quae sit saepe facilis iusto! Numquam similique quasi quibusdam excepturi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos minus nobis nam enim rerum obcaecati. Maxime molestiae voluptas ut dignissimos reiciendis? Neque laborum sint laudantium dolores assumenda corporis ipsum obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt in rem voluptatum maiores, blanditiis nihil error officiis beatae fugiat quis mollitia quos, quod temporibus nemo quia excepturi illum inventore exercitationem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut autem porro quidem, veritatis perferendis voluptas ex id eligendi nobis? Perferendis explicabo atque quisquam corrupti ducimus similique nulla beatae, alias consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, similique quas? Odio reprehenderit laborum illo sequi fugiat aspernatur iure quo laboriosam nemo aliquam ad, doloremque qui quod. Explicabo, atque sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae suscipit porro sint debitis voluptate labore recusandae veritatis est aliquid! Quae sit saepe facilis iusto! Numquam similique quasi quibusdam excepturi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos minus nobis nam enim rerum obcaecati. Maxime molestiae voluptas ut dignissimos reiciendis? Neque laborum sint laudantium dolores assumenda corporis ipsum obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt in rem voluptatum maiores, blanditiis nihil error officiis beatae fugiat quis mollitia quos, quod temporibus nemo quia excepturi illum inventore exercitationem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut autem porro quidem, veritatis perferendis voluptas ex id eligendi nobis? Perferendis explicabo atque quisquam corrupti ducimus similique nulla beatae, alias consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, similique quas? Odio reprehenderit laborum illo sequi fugiat aspernatur iure quo laboriosam nemo aliquam ad, doloremque qui quod. Explicabo, atque sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae suscipit porro sint debitis voluptate labore recusandae veritatis est aliquid! Quae sit saepe facilis iusto! Numquam similique quasi quibusdam excepturi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos minus nobis nam enim rerum obcaecati. Maxime molestiae voluptas ut dignissimos reiciendis? Neque laborum sint laudantium dolores assumenda corporis ipsum obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt in rem voluptatum maiores, blanditiis nihil error officiis beatae fugiat quis mollitia quos, quod temporibus nemo quia excepturi illum inventore exercitationem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut autem porro quidem, veritatis perferendis voluptas ex id eligendi nobis? Perferendis explicabo atque quisquam corrupti ducimus similique nulla beatae, alias consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, similique quas? Odio reprehenderit laborum illo sequi fugiat aspernatur iure quo laboriosam nemo aliquam ad, doloremque qui quod. Explicabo, atque sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae suscipit porro sint debitis voluptate labore recusandae veritatis est aliquid! Quae sit saepe facilis iusto! Numquam similique quasi quibusdam excepturi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos minus nobis nam enim rerum obcaecati. Maxime molestiae voluptas ut dignissimos reiciendis? Neque laborum sint laudantium dolores assumenda corporis ipsum obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt in rem voluptatum maiores, blanditiis nihil error officiis beatae fugiat quis mollitia quos, quod temporibus nemo quia excepturi illum inventore exercitationem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut autem porro quidem, veritatis perferendis voluptas ex id eligendi nobis? Perferendis explicabo atque quisquam corrupti ducimus similique nulla beatae, alias consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, similique quas? Odio reprehenderit laborum illo sequi fugiat aspernatur iure quo laboriosam nemo aliquam ad, doloremque qui quod. Explicabo, atque sit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae suscipit porro sint debitis voluptate labore recusandae veritatis est aliquid! Quae sit saepe facilis iusto! Numquam similique quasi quibusdam excepturi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos minus nobis nam enim rerum obcaecati. Maxime molestiae voluptas ut dignissimos reiciendis? Neque laborum sint laudantium dolores assumenda corporis ipsum obcaecati? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt in rem voluptatum maiores, blanditiis nihil error officiis beatae fugiat quis mollitia quos, quod temporibus nemo quia excepturi illum inventore exercitationem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut autem porro quidem, veritatis perferendis voluptas ex id eligendi nobis? Perferendis explicabo atque quisquam corrupti ducimus similique nulla beatae, alias consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, similique quas? Odio reprehenderit laborum illo sequi fugiat aspernatur iure quo laboriosam nemo aliquam ad, doloremque qui quod. Explicabo, atque sit.</p>
+
 
 </body>
 
