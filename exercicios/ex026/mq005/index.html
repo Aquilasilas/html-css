@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -20,11 +23,28 @@
     </header>
     <main>
         <article>
-            <h2>Testando Media Query</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio corrupti animi odit! Fuga architecto tempore autem sit exercitationem similique suscipit sed perspiciatis saepe voluptatum libero facilis, numquam ut quod!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus neque praesentium sit ullam saepe pariatur magni aliquid ea! Quae sunt velit maxime cumque aut voluptas aspernatur vitae suscipit laudantium mollitia.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequuntur, nobis facilis sunt nesciunt est veniam modi molestiae vero ipsam aut ipsum facere cum at perferendis provident quidem doloribus atque.</p>
+            <h2>Explosões solares em 2024 serão as maiores em anos</h2>
+            <p>Sol é a estrela do sistema planetário que a Terra habita. A evolução na Terra está associada com o tipo de estrela do Sol, a atividade solar e até mesmo com qual frequência o Sol emite luz. Sabemos que sem o Sol, dificilmente a vida na Terra teria sido possível visto que muitas formas de vida dependem da luz solar.</p>
+
+            <p>Apesar de ser o astro responsável por diversos fatores que possibilitam a vida, o Sol é um objeto astronômico bastante complexo e dinâmico. Estrelas são alguns dos objetos mais complexos do Universo. Isso se deve à sua dinâmica complicada que se torna um desafio explicar o que acontece no interior delas.</p>
+
+            <p>Um desses desafios é explicar o ciclo de atividade das estrelas. Mais especificamente, o ciclo de atividade solar que tem um período de 11 anos. No auge do pico, aumenta a frequência de manchas solares, emissão de ventos solares e explosões chamadas de flares. Consequentemente, é mais comum que ventos solares atinjam o nosso planeta, principalmente ventos mais intensos.</p>
+
+            <p>É impossível falar de algum objeto astronômico sem falar de campo magnético. Graças à radiação eletromagnética é que conseguimos observar o Universo. Campos magnéticos são responsáveis por uma séries de fenômenos que vão desde auroras nos planetas até mesmo emissão de jatos relativísticos em buracos negros.
+
+                Campo magnético pode ser interpretado como uma região do espaço onde há uma interação com corpos carregados eletricamente, geralmente a interação acontece em linhas.
+                Importante ressaltar que não há monopolo magnético, ou seja, uma linha de campo magnético tem que sair de uma fonte e voltar para essa fonte. Conhecemos esse efeito como o polo sul e polo norte de um ímã, por exemplo.</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
 </body>
 </html>
